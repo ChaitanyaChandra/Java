@@ -10,7 +10,7 @@ public class test {
         Boolean checkIntNextLine = input.hasNextInt(); // next Scan must be int
         if (checkIntNextLine) { // to compare boolean value true
             Dob = input.nextInt();
-            input.nextLine(); //
+            input.nextLine(); // space handling for next int
             System.out.println("enter your name :");
             name = input.nextLine();
             int age = 2020 - Dob;
