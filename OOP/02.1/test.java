@@ -1,19 +1,15 @@
-//constructor overloading
 public class test{
     public static void main(String[] args) {
-        VipCustomer one = new VipCustomer();
-        VipCustomer two = new VipCustomer("chaitu",80808080.00);
-        VipCustomer three = new VipCustomer("chaitanya",1000000.00,"chaituchowdary@outlook.in");
-        System.out.println(one.getName());
-        System.out.println(two.getName());
-        System.out.println(three.getName() + " "+ three.getEmail());
+        Account one = new Account("chaitanya");
+        one.deposit(10000);
+        one.deposit(5000);
+        one.withdraw(10000);
     }
 }
 /*
-name:noname ,credit limit :50000.00 ,email: go@gmail.com
-name:chaitu ,credit limit :80808080.00 ,email: go@gmail.com
-name:chaitanya ,credit limit :1000000.00 ,email: chaituchowdary@outlook.in
-noname
-chaitu
-chaitanya chaituchowdary@outlook.in
+constructor with all parameters called
+constructor with single parameter called
+name :chaitanya , ballance deposited :10000 and new ballance :10000
+name :chaitanya , ballance deposited :15000 and new ballance :15000
+name :chaitanya your withdraw :10000 and new ballance :5000
  */
