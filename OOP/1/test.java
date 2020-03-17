@@ -6,3 +6,6 @@ public class test{
                 ,test.getColor()));
     }
 }
+/*
+this is a green color of a car
+ */
