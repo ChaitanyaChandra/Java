@@ -98,7 +98,7 @@ class Manam extends Movie {
     @Override
     public String GetHeroName() {
         {
-            return "Nagarguna";
+            return "Naga";
         }
     }
 }
@@ -168,4 +168,4 @@ loop no:10
 Jalsa Movie
 pawan kalyan
 
- */
+*/
